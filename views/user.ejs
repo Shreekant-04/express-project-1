@@ -1,0 +1,47 @@
+<!-- user.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>User Profile</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Profile Information</h2>
+        <p><strong>Name:</strong> <%= title%></p>
+        <p><strong>Email:</strong> <%= email%></p>
+      </section>
+      <section>
+        <h2>Biography</h2>
+        <p>
+          <%= title%> is an enthusiastic developer just starting his journey in
+          web development. He loves working with JavaScript and has a keen
+          interest in exploring open-source projects.
+        </p>
+      </section>
+      <section>
+        <h2>Interests</h2>
+        <ul>
+          <li>Web Development</li>
+          <li>Open Source</li>
+          <li>Traveling</li>
+          <li>Photography</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Our Platform. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
