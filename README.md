@@ -39,6 +39,8 @@ The project structure follows a standard MVC (Model-View-Controller) pattern com
    2. Click the "Code" button, then select "Download ZIP".
 
    ```bash
-   This `README.md` file now includes instructions for cloning, forking, and downloading the project as a ZIP file. You can use this file to provide users with clear guidance on how to set up and use the project.
+   This `README.md` file now includes instructions for cloning, forking, and
+   downloading the project as a ZIP file.You can use this file to provide users
+   with clear guidance on how to set up and use the project.
 
 
