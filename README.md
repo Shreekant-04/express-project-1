@@ -25,15 +25,16 @@ The project structure follows a standard MVC (Model-View-Controller) pattern com
 ## Usage
 
 1. **Clone the repository**:
+   ```bash
    git clone https://github.com/Shreekant-04/express-project-1.git
-2. **Forking the Repository**
+3. **Forking the Repository**
    1. Navigate to the repository on GitHub.
    2. Click the "Fork" button at the top right of the page.
    3. Clone the forked repository to your local machine:
 
    ```bash
    git clone <your_forked_repository_url>
-3. **Downloading as a ZIP File**
+4. **Downloading as a ZIP File**
    1. Navigate to the repository on GitHub.
    2. Click the "Code" button, then select "Download ZIP".
 
